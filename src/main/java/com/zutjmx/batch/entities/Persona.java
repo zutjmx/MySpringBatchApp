@@ -24,4 +24,7 @@ public class Persona {
 
     @Column(name = "fecha_nacimiento")
     private Date fechaNacimiento;
+
+    @Column(name = "fecha_insercion")
+    private Date fechaInsercion;
 }
