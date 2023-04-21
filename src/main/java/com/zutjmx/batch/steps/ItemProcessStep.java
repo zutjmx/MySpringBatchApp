@@ -39,6 +39,6 @@ public class ItemProcessStep implements Tasklet {
 
         log.info(":::::::: Finaliza paso de procesamiento de registros ::::::::");
 
-        return null;
+        return RepeatStatus.FINISHED;
     }
 }
