@@ -31,7 +31,7 @@ public class ItemDecompressStep implements Tasklet {
 
         ZipFile zipFile = new ZipFile(filePath);
 
-        File destDir = new File(resource.getFile().getParent(), "destino");
+        File destDir = new File(resource.getFile().getParent(), "destination    ");
 
         if(!destDir.exists()) {
             destDir.mkdir();
